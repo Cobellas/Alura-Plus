@@ -4,7 +4,7 @@
     --blue-button: #167BF7 ;
     --background-color-main: #00030C ;
     --font-main: 'inter';
-    --blue-button-efects: #ff003c;
+    --blue-button-efects: #ff0055;
 
 }
 
@@ -165,7 +165,7 @@ body{
     
 }
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
     .container{
         display: block;
         background-image: none;
@@ -173,5 +173,26 @@ body{
 
     .container__img{
         width: 50vh;
+    }
+
+    .container__box{
+        margin: 2em 2em;
+    }
+
+    .secondary{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secondary__img{
+        width: 50vh;
+    }
+
+    .devices__list{
+        display: block;
+    }
+
+    .footer__list{
+        display: block;
     }
 }
